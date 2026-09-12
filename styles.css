@@ -60,6 +60,9 @@
         font-weight:bold;
     }
     .about-me {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:32px;
+        font-weight:bold;
         padding:20px;
         text-align:center;
         color:#627d9a
@@ -121,6 +124,23 @@ section {
         font-size: 48px;
         font-family:'Times New Roman', Times, serif;
         font-weight:bolder;
+        padding:40px;
+
+    }
+    .experience {
+        font-size:32px;
+        padding:20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:#A63A2B;
+        font-weight:bold;
+    }
+    .languages {
+        font-size:32px;
+        padding:20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:#1B2A3A;
+        font-weight:bold;
+    }
 
     }
     .about-me {
@@ -134,9 +154,9 @@ section {
     .about-me-paragraph {
         margin-top:20px;
         color:#1B2A3A;
-        font-size: 24px;
+        font-size: 34px;
         font-family:'Times New Roman', Times, serif;
-        font-weight:bold;
+        font-weight:bolder;
      }
      img {
         width: 300px;
