@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -5,44 +7,44 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <nav>
-    <a href="#about">Sobre mim</a>
-    <a href="#projects">Habilidades</a>
-    <a href="#my-hobbies">Hobbies</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contato</a>
+  <nav>
+    <a href="#about" data-i18n="nav_about">Sobre mim</a>
+    <a href="#projects" data-i18n="nav_skills">Habilidades</a>
+    <a href="#my-hobbies" data-i18n="nav_hobbies">Hobbies</a>
+    <a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a>
+    <a href="#contact" data-i18n="nav_contact">Contato</a>
+    <button class="lang-btn" onclick="setLanguage('pt')">PT</button>
+    <button class="lang-btn" onclick="setLanguage('en')">EN</button>
   </nav>
   <div class="content">
-    <header>
-    <header>
-</header>
-<section id="title"><h1 class="titulo">Portfolio Arthur</h1></section>
-<section id="about">
-  <h2 class="about-me">Quem eu sou?</h2>
-  <p class="about-me-paragraph">Eu sou um estudante que está buscando aprimorar as habilidades de programação.</p>
-  </section>
-  <section id="projects">
-  <h2 class="projects">Minhas habilidades</h2>
-  <p class="experience">Eu tenho experiência em desenvolvimento web, e gosto muito de resolver problemas e raciocinio logico<p>
-  <p class="languages">Eu sou fluente em inglês (certificado abaixo) e posso desenvolver em outras linguas, ou adicionar suporte em outros idiomas a seu aplicativo/website.</p>
-</section>
-  <section id="my-hobbies">
-    <h1 class="hobbies">Meus hobbies</h1>
-    <p class="likes">Eu gosto de jogar xadrez (Tenho 1750 de rating FIDE), gosto de programação e tecnologia, e tambem gosto de ler!</p>
-    <h2 class="musica">Minhas músicas favoritas?</h2>
-    <p class="music">Eu gosto de escutar Kendrick Lamar.</p>
-    <img src="images/kendrick.png" alt="Kendrick Lamar" alt="kendrick lamar">
-  </section>
-<section id="portfolio">
-  <h1 class="ports">Portfolio</h1>
-    <img src="https://raw.githubusercontent.com/arthurafoliver-cyber/mywebsite/main/images/certificado.png?raw=true" alt="certificado de ingles">
-  <a href="https://raw.githubusercontent.com/arthurafoliver-cyber/mywebsite/main/images/certificado.png?raw=true" target="_blank">Ver certificado</a>
-  <section id="contact">
-    <h1 class="contact">Como me contatar</h1>
-    <p>antoniofdo@proton.me (Email)</p>
-    <p>Arthurafoliver-cyber (Github)</p>
-  </section> 
-  </section>
-</section>
-</div>
+    <section id="title"><h1 class="titulo" data-i18n="title">Portfolio Arthur</h1></section>
+    <section id="about">
+      <h2 class="about-me" data-i18n="about_heading">Quem sou eu?</h2>
+      <p class="about-me-paragraph" data-i18n="about_text">Eu sou um estudante que está buscando aprimorar as habilidades de programação.</p>
+    </section>
+    <section id="projects">
+      <h2 class="projects" data-i18n="skills_heading">Minhas habilidades</h2>
+      <p class="experience" data-i18n="skills_text">Eu tenho experiência em desenvolvimento web, e gosto muito de resolver problemas e raciocínio lógico.</p>
+      <p class="languages" data-i18n="languages_text">Eu sou fluente em inglês (certificado abaixo) e posso desenvolver em outras línguas, ou adicionar suporte em outros idiomas a seu aplicativo/website.</p>
+    </section>
+    <section id="my-hobbies">
+      <h1 class="hobbies" data-i18n="hobbies_heading">Meus hobbies</h1>
+      <p class="likes" data-i18n="hobbies_text">Eu gosto de jogar xadrez (tenho 1750 de rating FIDE), gosto de programação e tecnologia, e também gosto de ler!</p>
+      <h2 class="musica" data-i18n="music_heading">Minhas músicas favoritas?</h2>
+      <p class="music" data-i18n="music_text">Eu gosto de escutar Kendrick Lamar.</p>
+      <img src="images/kendrick.png" alt="Kendrick Lamar" data-i18n-alt="kendrick_alt">
+    </section>
+    <section id="portfolio">
+      <h1 class="ports" data-i18n="portfolio_heading">Portfolio</h1>
+      <img src="https://raw.githubusercontent.com/arthurafoliver-cyber/mywebsite/main/images/certificado.png?raw=true" alt="Certificado de inglês" data-i18n-alt="certificate_alt">
+      <a href="https://raw.githubusercontent.com/arthurafoliver-cyber/mywebsite/main/images/certificado.png?raw=true" target="_blank" data-i18n="view_certificate">Ver certificado</a>
+      <section id="contact">
+        <h1 class="contact" data-i18n="contact_heading">Como me contatar</h1>
+        <p>antoniofdo@proton.me (Email)</p>
+        <p>Arthurafoliver-cyber (Github)</p>
+      </section>
+    </section>
+  </div>
+  <script src="translations.js"></script>
 </body>
+</html>

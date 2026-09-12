@@ -141,6 +141,16 @@ section {
         color:#1B2A3A;
         font-weight:bold;
     }
+    .lang-btn {
+  background: none;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.6rem;
+    }
 
     }
     .about-me {
