@@ -14,13 +14,22 @@
         font-family:Arial, sans-serif;
     
     }
+    .title {
+        color:#2e3257;
+        font-size: 48px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight:bolder;
+    }
     .titulo {
         color: #2e3257;
-       font-size: 48px;
-       padding:20px;
+       font-size: 78px;
+       padding:50px;
+       font-family:'Times New Roman', Times, serif;
+       font-weight:bolder;
 
     }
     .ports {
+        padding:20px;
         color:#627d9a;
         font-family:'Times New Roman', Times, serif;
         font-size:48px;
@@ -29,9 +38,37 @@
     h1 {
   color: #2e3257
     }
+    .musica {
+    padding:20px;
+        color:#A63A2B;
+        font-size:48px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight:bolder;
+    }
+    .likes {
+        padding:20px;
+        color:#627d9a;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight:bold;
+        font-size:32px;
+    }
+    .music {
+        padding:20px;
+        color:#2e3257;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:32px;
+        font-weight:bold;
+    }
     .about-me {
-        text-align:center
+        padding:20px;
+        text-align:center;
         color:#627d9a
+    }
+    .hobbies {
+        font-size: 48px;
+        font-family:'Times New Roman', Times, serif;
+        padding:20px;
+        color:#2e3257
     }
     nav {
         min-height: calc(100vh - 20px);
